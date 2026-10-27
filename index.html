@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>灯笼锦鲤池 四家同题对比</title>
+<style>
+:root{--bg:#f6f3ee;--fg:#1d1d1f;--mut:#6b6b70;--card:#fff;--line:#e4dfd6;--ok:#1f7a4d;--bad:#b3261e;--warn:#a15c00}
+@media (prefers-color-scheme:dark){:root{--bg:#141416;--fg:#ececef;--mut:#9a9aa2;--card:#1e1e22;--line:#303036;--ok:#5fcf95;--bad:#ff8a80;--warn:#f0b35a}}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.6 -apple-system,"PingFang SC",sans-serif}
+main{max-width:1600px;margin:0 auto;padding:24px 16px 60px}
+h1{font-size:26px;margin:0 0 4px}.sub{color:var(--mut);margin:0 0 20px}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin-bottom:24px}
+th,td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{font-size:13px;color:var(--mut);font-weight:600}
+.num{font-variant-numeric:tabular-nums}.ok{color:var(--ok);font-weight:600}.bad{color:var(--bad);font-weight:600}.warn{color:var(--warn);font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px}
+.card h2{font-size:18px;margin:0 0 8px}.card img{width:100%;border-radius:6px;display:block;margin:6px 0}
+.card a{color:inherit}.wrap{overflow-x:auto}
+
+.duel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:24px}.duel h2{font-size:16px;margin:0 0 12px}.duel-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.tile{display:grid;gap:6px;min-width:0}.tile button{all:unset;display:block;cursor:zoom-in;border:1px solid var(--line);border-radius:8px;overflow:hidden;aspect-ratio:16/10;background:var(--bg)}.tile img{width:100%;height:100%;display:block;object-fit:contain}.tile b{font-size:16px}.tile small,.note{font-size:12px;color:var(--mut)}.note{margin:12px 0 0}.work-link{font-size:13px;color:var(--ok);text-decoration:none;padding:4px 0}.tile button:focus-visible{outline:2px solid var(--ok);outline-offset:2px}.lightbox{position:fixed;inset:0;z-index:10;background:#050a09eb;display:flex;align-items:center;justify-content:center;padding:22px;cursor:zoom-out}.lightbox[hidden]{display:none}.lightbox img{max-width:100%;max-height:100%;object-fit:contain}.lightbox-close{position:absolute;right:18px;top:18px;border:1px solid #ffffff80;border-radius:99px;background:#132622;color:#fff;padding:8px 14px;cursor:pointer}@media(max-width:900px){.duel-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:500px){.grid{grid-template-columns:minmax(0,1fr)}.duel{padding:12px}.duel-grid{gap:10px}.tile b{font-size:14px}main{padding:18px 12px}h1{font-size:24px}}
+</style></head><body><main>
+<h1>灯笼锦鲤池 · 四家同题对比</h1>
+<p class="sub">同一题目，四家效果并排看。2026-10-22 补齐 Astra。DeepSeek 主视图采用第三跑 /goal 版；运行方式不同，详见下方口径。订阅模型费用为 API 标准价折算。</p>
+<section class="duel" aria-label="四家同屏对比"><h2>四家开场画面 · 点图放大</h2><div class="duel-grid"><div class="tile"><button type="button" aria-label="放大 Opus 开场画面"><img src="shots/opus-5.5-01-load.jpg" alt="Opus 开场画面"></button><b>Opus 5.5</b><small>$28.29 · 约 195 分钟<br>园林细节丰富，制作时间最长</small><a class="work-link" href="opus-5.5/index.html" target="_blank" rel="noopener">打开原作品 ↗</a></div><div class="tile"><button type="button" aria-label="放大 Kimi 开场画面"><img src="shots/kimi-k3-01-load.jpg" alt="Kimi 开场画面"></button><b>Kimi K3</b><small>$1.34 · 23 分钟<br>低多边形卡通，功能完整</small><a class="work-link" href="kimi-k3/index.html" target="_blank" rel="noopener">打开原作品 ↗</a></div><div class="tile"><button type="button" aria-label="放大 DeepSeek goal 开场画面"><img src="shots/deepseek-goal-01-load.jpg" alt="DeepSeek goal 开场画面"></button><b>DeepSeek V4.1-Flash</b><small>¥3.89 · 净 45 分钟<br>第三跑 /goal，远景偏暗</small><a class="work-link" href="deepseek-v4.1-dsh-goal/index.html" target="_blank" rel="noopener">打开原作品 ↗</a></div><div class="tile"><button type="button" aria-label="放大 Astra 开场画面"><img src="astra/shots/astra-01-load.jpg" alt="Astra 开场画面"></button><b>GPT-6-Astra</b><small>约 $2.82 · 18.42 分钟<br>五种导出通过，夜景偏亮</small><a class="work-link" href="astra/index.html" target="_blank" rel="noopener">打开原作品 ↗</a></div></div><p class="note">使用各次验收保存的开场截图，保留原始比例。DeepSeek 展示 10-21 第三跑 /goal 版；前两跑保留在下方。各家工具、运行方式和验收设备不同，详见测试口径。</p></section>
+<div class="wrap"><table>
+<tr><th>模型</th><th>能否运行</th><th>文件</th><th>输出 token（含思考）</th><th>标准价</th><th>用时</th><th>.glb 导出</th><th>精灵图导出</th></tr>
+<tr><td>Claude Opus 5.5 · max</td><td class="ok">能，零报错</td><td class="num">180 KB</td><td class="num">88.8 万</td><td class="num">$28.29（≈¥201）</td><td>≈3 小时 15 分（中途撞周额度，隔天续跑）</td><td class="ok">能，1608 面，带贴图</td><td class="ok">能，2048×256 透明 8 帧</td></tr>
+<tr><td>Kimi K3</td><td class="ok">能，零报错</td><td class="num">82 KB</td><td class="num">5.6 万</td><td class="num">$1.34（≈¥9.5）</td><td>23 分钟</td><td class="ok">能，带贴图</td><td class="ok">能，2048×256 透明 8 帧</td></tr>
+<tr><td>DeepSeek V4.1-Flash · 单次 API · max</td><td class="bad">不能，黑屏</td><td class="num">218 KB</td><td class="num">17.5 万（思考 11 万）</td><td class="num">$0.105（人民币价 ¥0.70，闲时价）</td><td>11.5 分钟</td><td>—</td><td>—</td></tr>
+<tr><td>DeepSeek V4.1-Flash · dsh agent（10-20 重跑）</td><td class="ok">能，零报错</td><td class="num">245 KB</td><td class="num">29.3 万</td><td class="num">¥2.29（闲时价；高峰价 ¥4.57）</td><td>39 分钟，191 步</td><td class="ok">能，锦鲤 678 面、乌龟 1631 面，带贴图</td><td class="ok">能，2048×256 透明 8 帧（帧间动作很小）</td></tr>
+<tr><td>DeepSeek V4.1-Flash · dsh /goal 循环（10-21 第三跑）</td><td class="ok">能，零报错</td><td class="num">254 KB</td><td class="num">43.6 万</td><td class="num">¥3.89（闲时价；高峰价 ¥7.77）</td><td>净 45 分钟（墙上 64，扣 18 分钟等批准），262 步，1 轮/上限 5</td><td class="ok">能，锦鲤 1438 面、乌龟 3085 面、青蛙 2380 面，带贴图</td><td class="ok">能，2048×256 透明 8 帧</td></tr>
+<tr><td>GPT-6-Astra · xhigh · Codex agent</td><td class="ok">能，投放 9→10；1 条 WebGL 警告</td><td class="num">88,570 bytes</td><td class="num">39,688（含思考 7,722）</td><td class="num">约 $2.82（订阅，非实际扣费）</td><td>18.42 分钟，6 次工具调用</td><td class="ok">5 种，1560–2504 面，带材质和贴图</td><td class="ok">5 张，2048×256 透明 8 帧，有动作变化</td></tr>
+</table></div>
+<div class="grid">
+<div class="card"><h2>Opus 5.5</h2><p>画面最完整：水底焦散网纹、月亮倒影、垂柳、荷花、灯笼暖光、石桥、乌龟上石头晒月亮。卡片缩略图是真 3D 渲染。代价是最贵、最慢。</p>
+<img src="shots/opus-5.5-01-load.jpg" alt="Opus 开场"><img src="shots/opus-5.5-03-spritesheet.jpg" alt="Opus 精灵图"><a href="opus-5.5/index.html">打开页面</a></div>
+<div class="card"><h2>Kimi K3</h2><p>全部功能都在且能用：投鱼水花、计数器、导出菜单。画风偏低多边形卡通，左下有噪点闪烁；锦鲤花纹偏条纹，不太像锦鲤。性价比最高。</p>
+<img src="shots/kimi-k3-01-load.jpg" alt="Kimi 开场"><img src="shots/kimi-k3-03-spritesheet.jpg" alt="Kimi 精灵图"><a href="kimi-k3/index.html">打开页面</a></div>
+<div class="card"><h2>DeepSeek V4.1-Flash · dsh /goal 循环（10-21）</h2><p>同样的任务文本包进 /goal，让它自检到满足为止。它自己开无头 Chrome 看控制台、验导出，再回去改画面。垂柳有叶子、石灯笼有造型和暖光、水面有波纹和月光碎影，荷花睡莲、石桥都在。验收：零报错，投鱼计数 6→7，五个 .glb 合法，五张精灵图 2048×256 八帧透明。短板：高角度俯视而非正俯视，远景偏暗，我的浏览器里 25 fps 自动降画质。</p>
+<img src="shots/deepseek-goal-01-load.jpg" alt="DeepSeek goal 开场"><img src="shots/deepseek-goal-02-toss.jpg" alt="DeepSeek goal 投鱼"><img src="shots/deepseek-goal-03-spritesheet.jpg" alt="DeepSeek goal 精灵图"><a href="deepseek-v4.1-dsh-goal/index.html">打开页面</a></div>
+<div class="card"><h2>GPT-6-Astra · xhigh</h2><p>GPT-6-Astra · xhigh · Codex agent；一次完成生成，18.42 分钟、6 次工具调用。输出 39,688 token（含 7,722 思考 token）。</p><p>点卡投放计数 9→10。五种 GLB 均带材质和贴图，1560–2504 个三角面；五张精灵图均为 2048×256、透明、8 帧，均有动作变化。界面整齐，默认水面偏浅青灰，夜景氛围不足。保留 1 条 WebGL 反馈环警告。</p><img src="astra/shots/astra-01-load.jpg" alt="Astra 开场画面" loading="lazy"><img src="astra/shots/astra-03-spritesheet.jpg" alt="Astra 五种精灵图" loading="lazy"><a href="astra/index.html" target="_blank" rel="noopener">打开原作品 ↗</a></div>
+<div class="card"><h2>DeepSeek V4.1-Flash · 单次 API</h2><p>写了最多的代码，却在建垂柳时用了一个从没声明过的变量 <code>waterShadowLayer</code>，启动就崩，只剩界面壳子。最便宜，但一次过不了。</p>
+<img src="shots/deepseek-v4.1-01-load.jpg" alt="DeepSeek 黑屏"><a href="deepseek-v4.1/index.html">打开页面</a></div>
+<div class="card"><h2>DeepSeek V4.1-Flash · dsh agent（10-20）</h2><p>用 dsh 的 agent 模式重跑，任务原文和 Kimi 一字不差。这次能跑，投放、计数、导出都正常，界面设计是四家里最讲究的。短板在画面：整体偏灰，石灯笼像白色圆柱，垂柳像光秃枝条，加载约 20 秒，精灵图帧间动作很小。</p>
+<img src="shots/deepseek-dsh-01-load.jpg" alt="DeepSeek dsh 加载后"><img src="shots/deepseek-dsh-02-drop.jpg" alt="DeepSeek dsh 投放"><img src="shots/deepseek-dsh-03-spritesheet.jpg" alt="DeepSeek dsh 精灵图"><a href="deepseek-v4.1-dsh/index.html">打开页面</a></div>
+</div>
+<p class="sub" style="margin-top:20px">口径说明：Kimi 是 agent 模式（自己能读写文件、跑语法检查），DeepSeek 是单次 API 调用（无工具、不能自查），Opus 是 Claude Code 子会话（有工具，只用了语法检查，没开浏览器）。三家都不知道别家的结果。10-20 补跑：DeepSeek 改用 dsh 0.2.1-rc.2 的 agent 模式（headless），任务原文与 Kimi 相同，口径和 Kimi、Opus 一致；按实际 token 闲时价 ¥2.29。Kimi、Opus 走订阅不额外扣钱，金额是按 token 折算的标准价；DeepSeek 走 API 按量计费，按本次 token 人民币标准价是 ¥0.70。10-21 第三跑：dsh web 界面 /goal 循环，最多 5 轮，1 轮自判完成；token 从 dsh 会话日志算，闲时价 ¥3.89；两次沙箱提权（开无头 Chrome 自检）由 Claude 点允许，等待的 18 分钟不计入用时。</p>
+<p class="sub">Astra 口径：一次完成生成，生成后未改源码；18.42 分钟为正式生成用时，不含先前兼容性预检与后续验收。初次 CDN 连接失败，普通刷新后加载成功。Astra 使用现有订阅；约 $2.82 是 API 标准价折算（token $2.80766＋1 次搜索 $0.01），非实际扣费。 <a href="https://developers.openai.com/api/docs/pricing" target="_blank" rel="noopener">官方价格</a>。任务原文见 <a href="PROMPT.txt">PROMPT.txt</a>（四家完全相同）。截图保留各自原始比例与验收设备，未统一视角或修图。</p></main><div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="截图预览" hidden><button type="button" class="lightbox-close">关闭 ×</button><img id="lightbox-img" alt=""></div><script>
+const lb=document.getElementById('lightbox'),li=document.getElementById('lightbox-img');
+document.querySelectorAll('.tile button').forEach(b=>b.addEventListener('click',()=>{const i=b.querySelector('img');li.src=i.src;li.alt=i.alt;lb.hidden=false}));
+lb.addEventListener('click',()=>lb.hidden=true);document.addEventListener('keydown',e=>{if(e.key==='Escape')lb.hidden=true});
+</script></body></html>
